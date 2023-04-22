@@ -27,14 +27,31 @@
     margin-bottom: 16px;
   }
 
+  #search {
+    float: right;
+    width: 200px;
+  }
+
   .IconContainer {
+    display: flex;
+    flex-direction: column;
     position: relative;
     font-size: 14px;
     float: left;
-    width: 64px;
-    height: 64px;
+    width: 68px;
+    height: 68px;
     line-height: 51px;
     overflow: hidden;
+    align-items: center;
+  }
+  
+  .IconContainer[hidden] {
+    display: none !important;
+  }
+  
+  .IconContainer:hover {
+    background: #f3f2f1;
+    z-index: -1;
   }
   
   .IconContainer:focus {
@@ -59,6 +76,9 @@
   }
 
   .IconContainer-icon {
+    display: block;
+    height: 48px;
+    width: 48px;
     text-align: center;
   }
 
@@ -68,5 +88,6 @@
   }
 
   .ms-Icon {
-    font-size: 28px;
+    font-size: 32px;
+    line-height: 48px;
   }
