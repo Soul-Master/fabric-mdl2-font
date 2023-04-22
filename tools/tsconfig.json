@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.base.json",
+  "references": [ { "path": "../data" } ],
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./build",
+    "baseUrl": ".",
+    "paths": {
+      "data/*": ["../data/*"]
+    }
+  },
+  "include": [ "**/*.ts", "../data/*.json" ],
+  "exclude": [
+    "build"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  // Target all ES features that are available on all latest browser versions.
+  "compileOnSave": true,
+  "buildOptions": {
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    "incremental": true
+  },
+  "compilerOptions": {
+    // Current target supports Chrome 85, Safari 15.4, Node.js 16.0 or later.
+    // Only class static initialization blocks feature isn't available on Safari 15.4+
+    "target": "es2022",
+    // Support top-level await
+    "module": "es2022",
+    "composite": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "incremental": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "noImplicitOverride": true,
+    "useDefineForClassFields": true,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    "isolatedModules": true
+  },
+}

@@ -1,0 +1,8 @@
+{
+  "references": [
+    { "path": "data" },
+    { "path": "src" },
+    { "path": "tools" }
+  ],
+  "files": []
+}

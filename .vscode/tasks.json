@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "build",
+            "group": "build",
+            "problemMatcher": "$tsc",
+            "detail": "Build all TypeScript projects"
+        },
+        {
+            "type": "npm",
+            "script": "watch",
+            "isBackground": true,
+            "problemMatcher": {
+                "base": "$tsc-watch",
+                "applyTo": "allDocuments"
+              },
+            "detail": "Re-compile TypeScript project after it was changed"
+        },
+        {
+            "type": "npm",
+            "script": "start",
+        },
+        {
+            "type": "npm",
+            "script": "clean",
+        }
+    ]
+}

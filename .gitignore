@@ -1,0 +1,9 @@
+# Project special folders
+/icomoon
+/dist
+
+# Generated folders/files
+node_modules
+build
+*.tsbuildinfo
+package-lock.json
