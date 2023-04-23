@@ -7,11 +7,12 @@
   "scripts": {
     "start": "npm install && npm run build && npm run serve",
     "clean": "git clean -dfx",
-    "build": "tsc --build",
+    "build": "tsc --build && npm run gen:template",
     "watch": "tsc --build --watch",
     "serve": "node tools/build/serve-script",
     "serve:debug": "node --inspect tools/build/serve-script",
-    "publish": "node tools/build/publish-script"
+    "publish": "node tools/build/publish-script",
+    "gen:template": "node tools/build/generate-template-script"
   },
   "devDependencies": {
     "@types/node": "~18.15.13",
@@ -22,7 +23,8 @@
     "koa-send": "~5.0.1",
     "glob": "~7.2.3",
     "glob2base": "^0.0.12",
-    "typescript": "~5.0.4"
+    "typescript": "~5.0.4",
+    "lit": "~2.7.2"
   },
   "author": "Soul_Master",
   "license": "MIT"

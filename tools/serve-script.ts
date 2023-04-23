@@ -12,7 +12,8 @@ const hostPort = 8080;
 const srcFolder = '/src/';
 const allowFolders = [
     '/font/',
-    '/svg/'
+    '/svg/',
+    '/data/'
 ];
 const app = new Koa();
 app.use(serve());

@@ -76,10 +76,11 @@
   }
 
   .IconContainer-icon {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 48px;
     width: 48px;
-    text-align: center;
   }
 
   .IconContainer-name,

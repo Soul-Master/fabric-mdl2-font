@@ -7,3 +7,4 @@ node_modules
 build
 *.tsbuildinfo
 package-lock.json
+/src/pure-svg.html

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fabric MDL2 Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/fabric-icons.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <h1 class="ms-font-su">Fabric MDL2 v4.46</h1>
+  <p>
+    <a href="https://uifabricicons.azurewebsites.net/">https://uifabricicons.azurewebsites.net/</a>
+    <input type="text" list="iconKeyword" id="search" name="search" placeholder="Filter" autocomplete="off">
+  </p>
+  <div class="Icons">[[icons]]</div>
+  <script src="./build/index.js"></script>
+</body>
+</html>
